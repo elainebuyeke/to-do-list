@@ -4,11 +4,9 @@ import TaskList from './components/TaskList';
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: 1, text: "Pay Internet Bill" },
-    { id: 2, text: "Settle Electricity Bill" },
-    { id: 3, text: "Cancel Netflix" },
-    { id: 4, text: "Team Lunch" },
-    { id: 5, text: "Book Uber" }
+    { id: 1, text: "Buy Groceries" },
+    { id: 2, text: "Clean the House" },
+    { id: 3, text: "Prepare Presentation" }
   ]);
 
   const [taskToEdit, setTaskToEdit] = useState(null);
